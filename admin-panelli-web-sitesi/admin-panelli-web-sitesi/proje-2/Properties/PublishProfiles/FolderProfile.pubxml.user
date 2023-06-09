@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Bu dosya, Web projenizin yayımlama/paket işlemi tarafından kullanılıyor. MSBuild dosyasını düzenleyerek
+bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilgi edinmek için https://go.microsoft.com/fwlink/?LinkID=208121 adresini ziyaret edin. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Memet\Desktop\proje1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/admin/Views/Hakkimizda/HakkimizdaGuncelle.cshtml">
+      <publishTime>06/14/2020 08:16:23</publishTime>
+    </File>
+    <File Include="Areas/admin/Views/Hakkimizda/Index.cshtml">
+      <publishTime>06/14/2020 20:32:11</publishTime>
+    </File>
+    <File Include="Areas/admin/Views/Login/Index.cshtml">
+      <publishTime>06/14/2020 19:52:42</publishTime>
+    </File>
+    <File Include="Areas/admin/Views/Shared/_LayoutAdmin.cshtml">
+      <publishTime>06/14/2020 21:01:55</publishTime>
+    </File>
+    <File Include="Areas/admin/Views/Urunler/Index.cshtml">
+      <publishTime>06/14/2020 20:42:26</publishTime>
+    </File>
+    <File Include="Areas/admin/Views/Urunler/UrunForm.cshtml">
+      <publishTime>06/14/2020 17:47:26</publishTime>
+    </File>
+    <File Include="Areas/admin/Views/web.config">
+      <publishTime>06/13/2020 13:19:52</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>06/14/2020 23:54:22</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>06/14/2020 23:54:22</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/08/2012 18:00:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/proje-2.dll">
+      <publishTime>06/14/2020 23:54:11</publishTime>
+    </File>
+    <File Include="bin/proje-2.pdb">
+      <publishTime>06/14/2020 23:54:11</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Helpers.resources.dll">
+      <publishTime>11/28/2018 13:04:48</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Mvc.resources.dll">
+      <publishTime>11/28/2018 13:00:10</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Razor.resources.dll">
+      <publishTime>11/28/2018 13:00:34</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>11/28/2018 13:04:48</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>11/28/2018 13:04:48</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Webpages.resources.dll">
+      <publishTime>11/28/2018 13:04:48</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/adminlte.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/adminlte.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/adminlte.min.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/adminlte.min.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.components.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.components.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.components.min.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.components.min.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.core.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.core.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.core.min.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.core.min.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.extra-components.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.extra-components.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.extra-components.min.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.extra-components.min.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.pages.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.pages.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.pages.min.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.pages.min.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.plugins.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.plugins.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.plugins.min.css">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/css/alt/adminlte.plugins.min.css.map">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/AdminLTELogo.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/avatar.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/avatar04.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/avatar2.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/avatar3.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/avatar5.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/boxed-bg.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/boxed-bg.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/american-express.png">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/cirrus.png">
+      <publishTime>06/13/2020 14:44:07</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/mastercard.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/mestro.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/paypal.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/paypal2.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/credit/visa.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/default-150x150.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/icons.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/photo1.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/photo2.png">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/photo3.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/photo4.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/prod-1.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/prod-2.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/prod-3.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/prod-4.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/prod-5.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user1-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user2-160x160.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user3-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user4-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user5-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user6-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user7-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/img/user8-128x128.jpg">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/adminlte.js">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/adminlte.js.map">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/adminlte.min.js">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/adminlte.min.js.map">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/demo.js">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/pages/dashboard.js">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/pages/dashboard2.js">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/dist/js/pages/dashboard3.js">
+      <publishTime>06/13/2020 14:44:08</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.js">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.js.map">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.min.js">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>06/14/2020 04:43:31</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-responsive/css/responsive.bootstrap4.css">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-responsive/js/dataTables.responsive.js">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-responsive/js/dataTables.responsive.min.js">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-responsive/js/responsive.bootstrap4.js">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables-responsive/js/responsive.bootstrap4.min.js">
+      <publishTime>06/14/2020 04:34:52</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables/jquery.dataTables.js">
+      <publishTime>06/13/2020 19:01:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/datatables/jquery.dataTables.min.js">
+      <publishTime>06/13/2020 19:01:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/all.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/all.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/brands.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/brands.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/fontawesome.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/fontawesome.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/regular.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/regular.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/solid.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/solid.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/svg-with-js.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/svg-with-js.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/v4-shims.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/css/v4-shims.min.css">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-brands-400.eot">
+      <publishTime>06/14/2020 04:41:40</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-brands-400.svg">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-brands-400.ttf">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-brands-400.woff">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-brands-400.woff2">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-regular-400.eot">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-regular-400.svg">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-regular-400.ttf">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff2">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-solid-900.eot">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-solid-900.svg">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-solid-900.ttf">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff2">
+      <publishTime>06/14/2020 04:41:41</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/core.js">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/jquery.js">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/jquery.min.js">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/jquery.min.map">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/jquery.slim.js">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/jquery.slim.min.js">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/jquery/jquery.slim.min.map">
+      <publishTime>06/14/2020 04:45:00</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/font/summernote.eot">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/font/summernote.ttf">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/font/summernote.woff">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/font/summernote.woff2">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ar-AR.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ar-AR.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ar-AR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-az-AZ.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-az-AZ.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-az-AZ.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-bg-BG.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-bg-BG.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-bg-BG.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ca-ES.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ca-ES.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ca-ES.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-cs-CZ.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-cs-CZ.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-cs-CZ.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-da-DK.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-da-DK.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-da-DK.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-de-DE.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-de-DE.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-de-DE.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-el-GR.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-el-GR.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-el-GR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-es-ES.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-es-ES.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-es-ES.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-es-EU.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-es-EU.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-es-EU.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fa-IR.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fa-IR.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fa-IR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fi-FI.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fi-FI.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fi-FI.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fr-FR.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fr-FR.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-fr-FR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-gl-ES.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-gl-ES.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-gl-ES.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-he-IL.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-he-IL.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-he-IL.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-hr-HR.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-hr-HR.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-hr-HR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-hu-HU.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-hu-HU.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-hu-HU.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-id-ID.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-id-ID.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-id-ID.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-it-IT.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-it-IT.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-it-IT.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ja-JP.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ja-JP.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ja-JP.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ko-KR.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ko-KR.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ko-KR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-lt-LT.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-lt-LT.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-lt-LT.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-lt-LV.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-lt-LV.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-lt-LV.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-mn-MN.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-mn-MN.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-mn-MN.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-nb-NO.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-nb-NO.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-nb-NO.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-nl-NL.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-nl-NL.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-nl-NL.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pl-PL.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pl-PL.min.js">
+      <publishTime>06/14/2020 07:31:57</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pl-PL.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pt-BR.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pt-BR.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pt-BR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pt-PT.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pt-PT.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-pt-PT.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ro-RO.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ro-RO.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ro-RO.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ru-RU.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ru-RU.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ru-RU.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sk-SK.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sk-SK.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sk-SK.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sl-SI.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sl-SI.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sl-SI.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sr-RS-Latin.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sr-RS-Latin.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sr-RS-Latin.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sr-RS.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sr-RS.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sr-RS.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sv-SE.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sv-SE.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-sv-SE.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ta-IN.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ta-IN.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-ta-IN.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-th-TH.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-th-TH.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-th-TH.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-tr-TR.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-tr-TR.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-tr-TR.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-uk-UA.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-uk-UA.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-uk-UA.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-uz-UZ.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-uz-UZ.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-uz-UZ.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-vi-VN.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-vi-VN.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-vi-VN.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-zh-CN.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-zh-CN.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-zh-CN.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-zh-TW.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-zh-TW.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/lang/summernote-zh-TW.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/plugin/databasic/summernote-ext-databasic.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/plugin/databasic/summernote-ext-databasic.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/plugin/hello/summernote-ext-hello.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.js.map">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.min.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-bs4.min.js.map">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.js.map">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.min.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote-lite.min.js.map">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.js.map">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.min.css">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.min.js">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.min.js.LICENSE.txt">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/summernote/summernote.min.js.map">
+      <publishTime>06/14/2020 07:31:58</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.css">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.scss">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2/sweetalert2.all.js">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2/sweetalert2.all.min.js">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2/sweetalert2.css">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2/sweetalert2.js">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2/sweetalert2.min.css">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/admin/plugins/sweetalert2/sweetalert2.min.js">
+      <publishTime>06/14/2020 08:35:27</publishTime>
+    </File>
+    <File Include="Content/css/business-casual.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/css/business-casual.min.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/img/about.jpg">
+      <publishTime>06/14/2020 19:34:04</publishTime>
+    </File>
+    <File Include="Content/img/bg.jpg">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/img/intro.jpg">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/img/products-01.jpg">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/img/products-02.jpg">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/img/products-03.jpg">
+      <publishTime>06/14/2020 11:28:09</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap.css.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.bundle.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.js.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/bootstrap/js/bootstrap.min.js.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/jquery/jquery.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/jquery/jquery.min.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/jquery/jquery.min.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/jquery/jquery.slim.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/jquery/jquery.slim.min.js">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Content/vendor/jquery/jquery.slim.min.map">
+      <publishTime>06/12/2020 20:12:46</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/12/2020 19:39:39</publishTime>
+    </File>
+    <File Include="Models/Kahve2020Model.edmx.diagram">
+      <publishTime>06/13/2020 14:25:22</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>06/14/2020 23:54:15</publishTime>
+    </File>
+    <File Include="Views/Default/Hakkimizda.cshtml">
+      <publishTime>06/14/2020 06:34:44</publishTime>
+    </File>
+    <File Include="Views/Default/Iletisim.cshtml">
+      <publishTime>06/14/2020 22:37:35</publishTime>
+    </File>
+    <File Include="Views/Default/Index.cshtml">
+      <publishTime>06/14/2020 22:18:54</publishTime>
+    </File>
+    <File Include="Views/Default/Magaza.cshtml">
+      <publishTime>06/14/2020 22:27:19</publishTime>
+    </File>
+    <File Include="Views/Default/Urundetay.cshtml">
+      <publishTime>06/14/2020 18:35:44</publishTime>
+    </File>
+    <File Include="Views/Default/Urunler.cshtml">
+      <publishTime>06/14/2020 18:30:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/14/2020 22:28:01</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>06/12/2020 19:39:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/14/2020 23:54:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
